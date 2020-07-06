@@ -17,8 +17,8 @@ Although attendance-related use remains the top purpose for accessing the websit
 The primary objective of this project was to improve the existing UI so that the system exhibits a high degree of usability for the end-user. 
 
 Used Bootstrap CSS, Morris JS, Chartist JS, Bootstrap JS for enhancing the front-end. Also used jQuery plugins such as Sparkline, Counter-up, Waypoints, SlimScroll and waves.
-Since each of the views requires some amount of data that needs to be fetched dynamically, created a servlet that would handle a particular client request. Servlets were necessary as each of the views is dynamic in nature.
-Servlets serve the dual purpose of redirection of client requests to appropriate views and providing them the required data.
+Since each of the views requires some amount of data that needs to be fetched dynamically, created servlets that would handle particular client requests. Servlets were necessary as each of the views is dynamic in nature.
+They serve the dual purpose of redirection of client requests to appropriate views and providing them the required data.
 A mySQL database was integrated at the server-side to serve as the backend storage for the application. JDBC driver was used to connect to the same, and database operations were handled using Java.
 
 
